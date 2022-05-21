@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0px;
+}
+.title {
+    background-color: #e3dac9;
+}
+.title h1 {
+    font-weight: 800;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 24px;
+    cursor: pointer;
+}
+.title h1:hover{
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+.bek{
+    background-color: #fff;
+    display: block;
+    padding: 2rem;
+}
+
+
+
+
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pertama {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.kedua {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ketiga {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.block img{
+    cursor: pointer;
+    padding: 10px;
+    height: 280px; /* 538 */
+}
+.block h6{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    padding: 2px;
+}
+.kopi{
+    display: flex;
+    flex-direction: column;
+}
+
+.kopi h5{
+    animation: ergebe 7s infinite;
+    padding: 10px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+@keyframes ergebe {
+    0%   {color: red;}
+    15%  {color: orange;}
+    30%  {color:  yellow;}
+    45%  {color: green;}
+    60% {color: blue;}
+    75% {color: indigo;}
+    100% {color: violet}
+  }
+
+.buton{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.btn {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 200px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    top: 100px;
+}
+.btn.btn-back{
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color:#000;
+    border-color: #000;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-back:hover{
+    background-color: #e3dac9;
+    border-color: #e3dac9;
+    color: #fff;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.a-1,.a-2,.a-3,.b-1,.b-2,.b-3,.c-1,.c-2,.c-3{
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.45);
+    margin: 10px;
+}
